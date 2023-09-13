@@ -1,0 +1,138 @@
+@charset "uft-8";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+    
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #23232e;
+    height: 8vh;
+}
+
+main {
+    background: url("bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 94vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .folha-pdf {
+    width: 21cm;
+    height: 2000px;
+    background-color: white;
+    box-shadow: 0 0 1500px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding-bottom: 2cm;
+    padding-top: 3cm;
+    padding-left: 3cm;
+    padding-right: 2cm;
+    line-height: 1.5;
+    margin-top: 2cm;
+  }
+
+  p {
+    text-indent: 2cm;
+    margin-bottom: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+    margin-top: 1cm;
+  }
+
+  h1 {
+    display: block;
+    text-align: center;
+    background-color: rgb(4, 33, 66);
+    color: white;
+    font-size: 20px;
+    margin-right: 0px;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgb(64, 66, 66);
+    text-align: center;
+}
+
+.inicio {
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+}
+
+.folha-pdff {
+    width: 21cm;
+    height: 700px;
+    background-color: white;
+    box-shadow: 0 0 1500px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding-bottom: 2cm;
+    padding-top: 3cm;
+    padding-left: 3cm;
+    padding-right: 2cm;
+    line-height: 1.5;
+    margin-top: 1cm;
+}
+
+.link {
+    color: rgb(0, 164, 214);
+}
+
+.linkk {
+    color: #23232e;
+}
+
+.titulo {
+    font-size: 12pt;
+}
+
+.txt {
+    text-indent: 2cm;
+    margin-bottom: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
