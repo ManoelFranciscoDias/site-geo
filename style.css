@@ -2,6 +2,8 @@
 
 
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -100,7 +102,6 @@ body {
 
 .folha-pdff {
     width: 21cm;
-    height: 700px;
     background-color: white;
     box-shadow: 0 0 1500px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
@@ -129,6 +130,19 @@ body {
     margin-bottom: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 50px;
+}
+
+
+
+
+
 
 
 
