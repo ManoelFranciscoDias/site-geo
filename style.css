@@ -149,7 +149,7 @@
 
 .img {
     text-align: center;
-    border: 2pt;
+    border: 2pt solid black;
     width: 800px;
     height: 500px;
 }
