@@ -24,8 +24,24 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
-  height: 8vh;
+  
+ 
+background: #23232e;
+  
+ 
+height: 8vh;
+  opacity: 0;
+  
+ 
+transform: translateY(-20px);
+  
+ 
+transition: opacity 1s ease, transform 1s ease;
+}
+
+nav.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 
@@ -153,7 +169,9 @@ p {
   align-items: center;
   padding: 1rem;
   margin-top: 1cm;
+
 }
+
 
 .p-footer,
 h1 {

@@ -42,3 +42,8 @@ const mobileNavbar = new MobileNavbar(
   ".nav-list li",
 );
 mobileNavbar.init();
+
+window.addEventListener('load', function () {
+  const nav = document.querySelector('nav');
+  nav.classList.add('visible');
+});
