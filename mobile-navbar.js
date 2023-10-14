@@ -48,3 +48,28 @@ window.addEventListener('load', function () {
   nav.classList.add('visible');
 });
 
+window.onload = function() {
+  var scrollToTopButton = document.getElementById('scrollToTop');
+
+  // Quando o usuário rola a página
+  window.onscroll = function() {
+      if (document.documentElement.scrollTop > 100) {
+          scrollToTopButton.style.display = 'block';
+      } else {
+          scrollToTopButton.style.display = 'none';
+      }
+  };
+
+  // Quando o botão é clicado
+  scrollToTopButton.onclick = function() {
+      scrollToTop();
+  };
+};
+
+// Função para rolar suavemente de volta ao topo
+function scrollToTop() {
+  window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Adicione a opção 'smooth' para a animação suave
+  });
+}
