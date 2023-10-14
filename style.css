@@ -24,25 +24,23 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  
- 
-background: #23232e;
-  
- 
-height: 8vh;
+  background: #23232e;
+  height: 8vh;
   opacity: 0;
-  
- 
-transform: translateY(-20px);
-  
- 
-transition: opacity 1s ease, transform 1s ease;
+  transform: translateY(-20px);
+  transition: opacity 1s ease, transform 1s ease;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
 }
 
 nav.visible {
   opacity: 1;
   transform: translateY(0);
 }
+
+
 
 
 .nav-list {
@@ -136,7 +134,7 @@ nav.visible {
   padding-left: 3cm;
   padding-right: 2cm;
   line-height: 1.5;
-  margin-top: 1cm;
+  margin-top: 3cm;
 }
 
 @media (max-width: 950px) {
@@ -187,6 +185,8 @@ h1 {
   border: 2pt solid black;
   width: 800px;
   height: 500px;
+  max-width: 100%;
+  height: auto;
 }
 
 .fonte {
@@ -212,14 +212,4 @@ h1 {
 
 li {
   list-style-type: none;
-}
-
-
-
-
-
-
-.img {
-  max-width: 100%;
-  height: auto;
 }

@@ -47,3 +47,4 @@ window.addEventListener('load', function () {
   const nav = document.querySelector('nav');
   nav.classList.add('visible');
 });
+
