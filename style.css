@@ -125,7 +125,7 @@ nav.visible {
 
 .folha-pdf {
 
-  max-width: 43%;
+  
   background-color: white;
   box-shadow: 0 0 1500px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
@@ -135,6 +135,14 @@ nav.visible {
   padding-right: 2cm;
   line-height: 1.5;
   margin-top: 6cm;
+}
+
+@media (min-width: 950px) {
+  .folha-pdf {
+
+    width: 21cm;
+  }
+  
 }
 
 @media (max-width: 950px) {
